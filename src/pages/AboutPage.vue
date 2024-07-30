@@ -49,7 +49,7 @@ export default {
   },
   methods: {
     handleResize() {
-      this.lampDisplay = window.innerWidth >= 950 ? 'block' : 'none';
+      this.lampDisplay = window.innerWidth >= 800 ? 'block' : 'none';
     }
   }
 }
